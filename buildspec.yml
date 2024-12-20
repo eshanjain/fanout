@@ -4,6 +4,8 @@ batch:
   fast-fail: false
   build-list:
     - identifier: build1
+  build-fanout:
+    parallelism: 1
 
 phases:
   build:
