@@ -2,8 +2,8 @@ version: 0.2
 
 batch:
   fast-fail: false
-  build-fanout:
-    parallelism: 1
+  build-list:
+    - identifier: build1
 
 phases:
   build:
